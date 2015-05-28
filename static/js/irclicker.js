@@ -38,7 +38,7 @@ $(document).ready(function() {
     var init = function() {
         // Initialize stuff
         shop = getCookie('espanolshop') ? JSON.parse(getCookie('espanolshop')) : shop;
-        counter = getCookie('espanolcount') ? parseInt(getCookie('espanolcount')) : counter;
+        counter = getCookie('espanolcount') ? parseFloat(getCookie('espanolcount')) : counter;
         initClickables();
         $.getJSON('static/json/sentences.json', function(data) {
             sent = data.sentences;
