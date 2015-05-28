@@ -14,27 +14,35 @@ body {
     line-height: 72px;
 }
 
-#reset {
+.headbtn {
     position: absolute;
     top: 18px;
-    left: 18px;
     width: 36px;
     height: 36px;
     line-height: 36px;
     background-color: #565656;
     transition: background-color 1.2s;
+    font-family: "FontAwesome";
+    font-size: 20px;
+    margin: 0;
+    color: #ffffff;
     cursor: pointer;
 }
 
-#reset div {
-    font-family: "FontAwesome";
-    font-weight: bold;
-    margin: 0;
-    transition: transform 1.2s;
+.headbtn:hover {
+    background-color: #727272;
 }
 
-#reset:hover {
-    background-color: #727272;
+.headbtn.right {
+    right: 18px;
+}
+
+.headbtn.left {
+    left: 18px;
+}
+
+#reset div {
+    transition: transform 1.2s;
 }
 
 #reset:hover div {

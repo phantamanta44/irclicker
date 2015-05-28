@@ -92,6 +92,7 @@ $(document).ready(function() {
         
         // Update UI
         count.text(counter);
+        document.title = 'IrClicker | ' + counter;
         
         // Save cookies
         setCookie('espanolcount', counter);
