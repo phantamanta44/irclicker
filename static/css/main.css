@@ -1,0 +1,156 @@
+body {
+    text-align: center;
+    font-family: "Ek Mukta";
+    background-color: #212121;
+    color: #f4f4f4;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+#header {
+    background-color: #424242;
+    margin: 0;
+    height: 72px;
+    line-height: 72px;
+}
+
+#reset {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #565656;
+    transition: background-color 1.2s;
+    cursor: pointer;
+}
+
+#reset div {
+    font-family: "FontAwesome";
+    font-weight: bold;
+    margin: 0;
+    transition: transform 1.2s;
+}
+
+#reset:hover {
+    background-color: #727272;
+}
+
+#reset:hover div {
+    transform: rotate(-360deg);
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 48px;
+    margin-bottom: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#count {
+    font-size: 36px;
+    height: 120px;
+}
+
+#count-val {
+    height: 48px;
+    line-height: 48px;
+    font-size: 48px;
+    font-family: "Nova Square";
+}
+
+#sentence {
+    background-color: #303030;
+    font-size: 20px;
+    height: 48px;
+    line-height: 48px;
+    transition: all 2s;
+}
+
+#sentence .ans {
+    display: inline;
+    color: #2196f3;
+    font-weight: 800;
+}
+
+#clickables {
+    
+}
+
+.clickable {
+    margin: 0 8px;
+    display: inline-block;
+    position: relative;
+    padding: 4px 16px;
+    font-size: 30px;
+    font-weight: bold;
+    background: #2196f3;
+    border-bottom: solid 4px #1976d2;
+    cursor: pointer;
+}
+
+.clickable:active {
+    border-bottom-width: 2px;
+    top: 2px;
+}
+
+#buyables {
+    
+}
+
+.shopitem {
+    height: 96px;
+    background: #303030 url("../img/bg.png") no-repeat;
+    background-size: 100% 0;
+    background-position: center;
+    margin: 6px 0;
+    transition: background-size 0.5s;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.shopitem:hover {
+    background-size: 100% 100%;
+}
+
+.shopitem .name {
+    position: relative;
+    top: 8px;
+    font-size: 32px;
+    height: 32px;
+    font-weight: 800;
+}
+
+.shopitem .swag {
+    position: relative;
+    display: inline-block;
+    top: 16px;
+    height: 42px;
+    font-size: 30px;
+}
+
+.shopitem .price {
+    position: relative;
+    display: inline-block;
+    top: 16px;
+    height: 42px;
+    font-size: 16px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

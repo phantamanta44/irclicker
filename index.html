@@ -3,14 +3,74 @@
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="static/js/irclicker.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Ek+Mukta' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Nova+Square' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="static/css/main.css">
+        <title>IrClicker</title>
     </head>
     <body>
-        <h1>
-            LOREM IPSUM DOLOR SET AMET
-        </h1>
-        <p>
-            Lorem ipsum dolor set amet consectetur adilipscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-        </p>
+        <div id="header">
+            <h1>IR CLICKER</h1>
+            <div id="reset">
+                <div>&#xf0e2;</div>
+            </div>
+        </div>
+        <div id="info">
+            <div id="count">
+                Grade Points:
+                <div id="count-val">
+                    Loading...
+                </div>
+            </div>
+            <div id="sentence">
+                Lorem ipsum dolor set amet consectetur <div class="ans">adipiscing</div> elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+        </div>
+        <div id="clickable-div">
+            <ul id="clickables">
+                <li class="unselectable clickable yo">Voy</li>
+                <li class="unselectable clickable tu">Vas</li>
+                <li class="unselectable clickable el">Va</li>
+                <li class="unselectable clickable nos">Vamos</li>
+                <li class="unselectable clickable vos">V&aacute;is</li>
+                <li class="unselectable clickable ellos">Van</li>
+            </ul>
+        </div>
+        <div id="shop">
+            <h2>Class Shop</h2>
+            <ul id="buyables">
+                <li class="unselectable shopitem textbook">
+                    <div class="name">Textbook</div>
+                    <div class="swag">0</div>
+                    <div class="price">$100</div>
+                </li>
+                <li class="unselectable shopitem student">
+                    <div class="name">Student</div>
+                    <div class="swag">0</div>
+                    <div class="price">$1337</div>
+                </li>
+                <li class="unselectable shopitem video">
+                    <div class="name">Video</div>
+                    <div class="swag">0</div>
+                    <div class="price">$5000</div>
+                </li>
+                <li class="unselectable shopitem sra">
+                    <div class="name">Se&ntilde;ora</div>
+                    <div class="swag">0</div>
+                    <div class="price">$15000</div>
+                </li>
+                <li class="unselectable shopitem lesson">
+                    <div class="name">Lesson</div>
+                    <div class="swag">0</div>
+                    <div class="price">$66000</div>
+                </li>
+                <li class="unselectable shopitem trip">
+                    <div class="name">Trip to Spain</div>
+                    <div class="swag">0</div>
+                    <div class="price">$420420</div>
+                </li>
+            </ul>
+        </div>
     </body>
 </html>
