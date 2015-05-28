@@ -14,22 +14,22 @@ $(document).ready(function() {
     };
     var shop = {
         item1: {
-            val: 1, base: 100, current: 100, count: 0, elem: '.shopitem.textbook'
+            val: 0.4, base: 100, current: 100, count: 0, elem: '.shopitem.textbook'
         },
         item2: {
-            val: 5, base: 1337, current: 750, count: 0, elem: '.shopitem.student'
+            val: 3, base: 1337, current: 750, count: 0, elem: '.shopitem.student'
         },
         item3: {
             val: 12, base: 5000, current: 1600, count: 0, elem: '.shopitem.video'
         },
         item4: {
-            val: 20, base: 15000, current: 3141, count: 0, elem: '.shopitem.sra'
+            val: 24, base: 15000, current: 3141, count: 0, elem: '.shopitem.sra'
         },
         item5: {
-            val: 30, base: 66000, current: 9001, count: 0, elem: '.shopitem.lesson'
+            val: 42, base: 66000, current: 9001, count: 0, elem: '.shopitem.lesson'
         },
         item6: {
-            val: 50, base: 420420, current: 15000, count: 0, elem: '.shopitem.trip'
+            val: 69, base: 420420, current: 15000, count: 0, elem: '.shopitem.trip'
         }
     };
     var sent;
@@ -97,8 +97,9 @@ $(document).ready(function() {
         });
         
         // Update UI
-        count.text(counter);
-        document.title = 'IrClicker | ' + counter;
+        var roundedCounter = Math.round(counter * 10) / 10;
+        count.text(roundedCounter);
+        document.title = 'IrClicker | ' + roundedCounter;
         
         // Save cookies
         setCookie('espanolcount', counter);
