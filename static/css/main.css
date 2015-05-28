@@ -5,9 +5,15 @@ body {
     color: #f4f4f4;
     margin: 0;
     margin-bottom: 36px;
+    margin-top: 72px;
 }
 
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
     background-color: #424242;
     margin: 0;
     height: 72px;
