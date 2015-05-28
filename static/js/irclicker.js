@@ -68,10 +68,14 @@ $(document).ready(function() {
     var initClickables = function() {
         $.each(click, function(i, obj) {
             $(obj).click(function() {
-                if (currentSen.ans === i)
+                if (currentSen.ans === i) {
                     counter += parseInt(currentSen.val);
-                else
-                    wrongAnswer();
+                    flashColor('#4caf50');
+                }
+                else {
+                    counter -= parseInt(currentSen.val);
+                    flashColor('#f44336');
+                }
                 randomSentence();
             });
         });
@@ -79,6 +83,8 @@ $(document).ready(function() {
     
     var tick = function() {
         // Update stuff
+        if (counter < 0)
+            counter = 0;
         $.each(shop, function(i, obj) {
             $(obj.elem).find('.swag').text(obj.count);
             $(obj.elem).find('.price').text('$' + obj.current);
@@ -108,8 +114,11 @@ $(document).ready(function() {
         currentSen = val;
     };
     
-    var wrongAnswer = function() {
-        alert('WRONG!');
+    var flashColor = function(color) {
+        sentence.css('background-color', color);
+        setTimeout(function() {
+            sentence.css('background-color', '#303030');
+        }, 271);
     };
     
     var testCompatibility = function() {
