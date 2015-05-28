@@ -1,0 +1,14 @@
+{
+    "sentences": [
+        {"sen": "I go.", "ans": "yo", "val": "10"},
+        {"sen": "You go. (Singular, informal)", "ans": "tu", "val": "10"},
+        {"sen": "He goes.", "ans": "el", "val": "12"},
+        {"sen": "She goes.", "ans": "el", "val": "12"},
+        {"sen": "It goes.", "ans": "el", "val": "15"},
+        {"sen": "We go.", "ans": "nos", "val": "12"},
+        {"sen": "You go. (Plural, informal)", "ans": "vos", "val": "13"},
+        {"sen": "They go.", "ans": "ellos", "val": "12"},
+        {"sen": "You go. (Singular, formal)", "ans": "el", "val": "13"},
+        {"sen": "You go. (Plural, formal)", "ans": "ellos", "val": "13"}
+    ]
+}
