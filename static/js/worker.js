@@ -1,7 +1,7 @@
 var wrap = function() {
     
     var tick = function() {
-        postMessage();
+        postMessage(0);
         scheduleTick();
     };
 
