@@ -1,14 +1,63 @@
 {
+    "__COMMENT": [
+        "This file is the database of sentences IrClicker uses. Its format is as follows:",
+        {
+            "sen": "The sentence itself goes here. You can place parts of the sentence in ^$ to highlight words/blanks, as such: Yo ^____$ al cine.",
+            "ans": "The answer to the sentence. Can be 'yo', 'tu', 'el', 'nos', 'vos', or 'ellos' for the respective forms of ir.",
+            "val": "The value of the sentence. How many points the player gets per correct click. Must be a positive integer."
+        },
+        "I've included some basic example questions already, but we're going to want more in-depth questions that are worth more points"
+    ],
     "sentences": [
-        {"sen": "I go.", "ans": "yo", "val": "10"},
-        {"sen": "You go. (Singular, informal)", "ans": "tu", "val": "10"},
-        {"sen": "He goes.", "ans": "el", "val": "12"},
-        {"sen": "She goes.", "ans": "el", "val": "12"},
-        {"sen": "It goes.", "ans": "el", "val": "15"},
-        {"sen": "We go.", "ans": "nos", "val": "12"},
-        {"sen": "You go. (Plural, informal)", "ans": "vos", "val": "13"},
-        {"sen": "They go.", "ans": "ellos", "val": "12"},
-        {"sen": "You go. (Singular, formal)", "ans": "el", "val": "13"},
-        {"sen": "You go. (Plural, formal)", "ans": "ellos", "val": "13"}
+        {
+            "sen": "I go.",
+            "ans": "yo",
+            "val": "10"
+        },
+        {
+            "sen": "You go. (Singular, informal)",
+            "ans": "tu",
+            "val": "10"
+        },
+        {
+            "sen": "He goes.",
+            "ans": "el",
+            "val": "12"
+        },
+        {
+            "sen": "She goes.",
+            "ans": "el",
+            "val": "12"
+        },
+        {
+            "sen": "It goes.",
+            "ans": "el",
+            "val": "15"
+        },
+        {
+            "sen": "We go.",
+            "ans": "nos",
+            "val": "12"
+        },
+        {
+            "sen": "You go. (Plural, informal)",
+            "ans": "vos",
+            "val": "13"
+        },
+        {
+            "sen": "They go.",
+            "ans": "ellos",
+            "val": "12"
+        },
+        {
+            "sen": "You go. (Singular, formal)",
+            "ans": "el",
+            "val": "13"
+        },
+        {
+            "sen": "You go. (Plural, formal)",
+            "ans": "ellos",
+            "val": "13"
+        }
     ]
 }
