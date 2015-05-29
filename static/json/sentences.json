@@ -58,6 +58,86 @@
             "sen": "You go. (Plural, formal)",
             "ans": "ellos",
             "val": 13
+        },
+        {
+            "sen": "Yo ^___$ de compras.",
+            "ans": "yo",
+            "val": 14
+        },
+        {
+            "sen": "¿^___$ nosotros a la fiesta?",
+            "ans": "nos",
+            "val": 14
+        },
+        {
+            "sen": "¿Adónde ^___$ las estudiantes?",
+            "ans": "ellos",
+            "val": 18
+        },
+        {
+            "sen": "El Señor David ^___$ al cine esta noche.",
+            "ans": "el",
+            "val": 17
+        },
+        {
+            "sen": "¡Hola, Señor Javier! ¿Adónde ^___$?",
+            "ans": "el",
+            "val": 21
+        },
+        {
+            "sen": "No ^___$ a la fiesta. Tengo mucha tarea de español.",
+            "ans": "yo",
+            "val": 20
+        },
+        {
+            "sen": "Cuando tienes calor en el verano, tú ^___$ en la casa.",
+            "ans": "tu",
+            "val": 23
+        },
+        {
+            "sen": "Yo ^___$ al baño.",
+            "ans": "yo",
+            "val": 16
+        },
+        {
+            "sen": "Él ^___$ a la escuela.",
+            "ans": "el",
+            "val": 18
+        },
+        {
+            "sen": "Vosotros ^___$ al restaurante.",
+            "ans": "vos",
+            "val": 19
+        },
+        {
+            "sen": "Me gusta ir a la playa. Yo ^___$.",
+            "ans": "yo",
+            "val": 20
+        },
+        {
+            "sen": "Ustedes ^___$ a comer en el restaurante.",
+            "ans": "ellas",
+            "val": 21
+        },
+        {
+            "sen": "Yo ^___$ a ver la tele.",
+            "ans": "yo",
+            "val": 20
+        },
+        {
+            "sen": "¿Adónde ^___$ para hacer tu tarea?",
+            "ans": "tu",
+            "val": 24
+        },
+        {
+            "sen": "¿Adónde ^___$ para estudiar vuestros libros?",
+            "ans": "yo",
+            "val": 22
+        },
+        {
+            "sen": "Él ^___$ a leer.",
+            "ans": "el",
+            "val": 19
         }
     ]
 }
