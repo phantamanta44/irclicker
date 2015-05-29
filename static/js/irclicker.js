@@ -69,11 +69,11 @@ $(document).ready(function() {
         $.each(click, function(i, obj) {
             $(obj).click(function() {
                 if (currentSen.ans === i) {
-                    counter += parseInt(currentSen.val);
+                    counter += currentSen.val;
                     flashColor('#4caf50');
                 }
                 else {
-                    counter -= parseInt(currentSen.val);
+                    counter -= currentSen.val;
                     flashColor('#f44336');
                 }
                 randomSentence();
